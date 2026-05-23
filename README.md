@@ -72,7 +72,7 @@ powershell
 $env:GROQ_API_KEY="your_api_key_here"
 4. Build and Run
 
-bash
+
 mvn clean install
 mvn spring-boot:run
 App runs on: http://localhost:8080
@@ -82,10 +82,10 @@ Method	Endpoint	Description
 GET	/api/chat?message={text}	Send message
 GET	/api/chat/health	Health check
 Example
-bash
 curl -X GET "http://localhost:8080/api/chat?message=Hello"
+
 📁 Project Structure
-text
+
 chatbot-app/
 ├── src/main/java/com/chatbot/ai/chatbot/project/
 │   ├── ChatbotProjectApplication.java
@@ -95,6 +95,7 @@ chatbot-app/
 ├── src/main/resources/application.properties
 ├── pom.xml
 └── README.md
+
 🔧 Configuration
 application.properties
 
@@ -115,6 +116,6 @@ Sejal Kanam90
 
 GitHub: sejalkanam90
 
-Project: github.com/sejalkanam90/chatbot-app
+Project: https://github.com/sejalkanam90/spring-ai-chatbot.git
 
 
